@@ -7,41 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0F2970BD73CDAC5242D7FA8B3FBD4D3E /* UIButtonHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89236740CC91D36B13FDACEDFE02403 /* UIButtonHelper.swift */; };
-		23F09F873EEA04FF09A1652EFCC3F761 /* DeviceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF39C3FCB0163F63014030915325DFB1 /* DeviceHelper.swift */; };
-		2B61C31CB49E0CA4C5560F3891BF0F30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		2CC3F58DE8BDF060F5C7B40B57D33A0F /* NSLayoutHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC04552D4BA358EEF82663D874E0B21 /* NSLayoutHelper.swift */; };
-		320D11A8F1D073D2539D338B6BA25A08 /* UILabelHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F5C91AEAAE8078B965ED0D37C7C31E /* UILabelHelper.swift */; };
-		32A9C62631E17FA7008DE75B0D9494C2 /* UITextFieldHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FFEB78A3A4C840A58DA9F680223413 /* UITextFieldHelper.swift */; };
-		464BF1AFF0169823F7F884CE9F2B6214 /* Pods-LayoutHelper_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B151112BB11F1A9B8E2F14FD29CA1F0E /* Pods-LayoutHelper_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4A834C21BCE1490F7786D30D272DA86E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		5B67CD8871607D6FE38397057B227C0C /* NSLayoutHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC04552D4BA358EEF82663D874E0B21 /* NSLayoutHelper.swift */; };
-		6D025F2A1F357EF1BD4500C861A5409D /* Pods-LayoutHelper_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC363E4F4FE743F59F89B1420987DE8E /* Pods-LayoutHelper_Tests-dummy.m */; };
-		6FABFAD7D0C1182987DAF01519D385A5 /* DeviceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF39C3FCB0163F63014030915325DFB1 /* DeviceHelper.swift */; };
-		7DCA31BBCF8D6E49CB5B3885A2E2FD28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		8427C833C5CA74BD91EF616D850D7175 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		9014D5FAFF4597412B22A4AD7469F65A /* Pods-LayoutHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8008CA51B2E3AD4AD7622C4C497E93C1 /* Pods-LayoutHelper-dummy.m */; };
-		98B879621ABAEF6EB46DA1AF7BC18CEB /* UIButtonHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89236740CC91D36B13FDACEDFE02403 /* UIButtonHelper.swift */; };
-		C315259C0796DE3AE8DB881C7FEA748C /* UITextViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26C54D11D455E13836C98EC6BE28B46 /* UITextViewHelper.swift */; };
-		D634FCCB1D31BA148F2930FCDC4BFF7C /* UITextFieldHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FFEB78A3A4C840A58DA9F680223413 /* UITextFieldHelper.swift */; };
-		D66B31A07B9A175CAB83D044E5F111C1 /* LayoutHelper-iOS9.3-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D081A9B11AFB035E9055044904801AEF /* LayoutHelper-iOS9.3-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DA9F21253779E4F28C204ACFED2CF8A5 /* LayoutHelper-iOS9.3-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6162AFF71B416DEF80F3DB82BD05BA /* LayoutHelper-iOS9.3-dummy.m */; };
-		DFFAFE7B0C9D41151EC85F4D980EB6F7 /* UITextViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26C54D11D455E13836C98EC6BE28B46 /* UITextViewHelper.swift */; };
-		EADF749EAB6DA0B5B2FAD492D1397D8F /* UILabelHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F5C91AEAAE8078B965ED0D37C7C31E /* UILabelHelper.swift */; };
-		F07F699D2B8F0E0745765B86C1F78488 /* Pods-LayoutHelper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8CFF3F2891E7974055497DE3BA43692 /* Pods-LayoutHelper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F0DB2C10E97F5D4D0F5F23C63CC2C8FE /* LayoutHelper-iOS13.2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D6C54FA7B00F65FF6D6A6060AB81F66 /* LayoutHelper-iOS13.2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FF139199E1671ABAFE8D9E21E6DC8BE8 /* LayoutHelper-iOS13.2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5729D8CCD5459DE08382886CB61FC10A /* LayoutHelper-iOS13.2-dummy.m */; };
+		026EEBDA7F1F984726C648D16C472CA5 /* UITextFieldHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CE590AF460C8EBD565BEDF8FC5FD44 /* UITextFieldHelper.swift */; };
+		0B4C9907BB4C5EB706FF5D9EFCBDC3A7 /* UIButtonHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA473BEC97A37480522A8666F652B7C /* UIButtonHelper.swift */; };
+		104E8DEF1D378E96862370A0485F9942 /* Pods-LayoutHelper_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC363E4F4FE743F59F89B1420987DE8E /* Pods-LayoutHelper_Tests-dummy.m */; };
+		12AC132A30717EDE92661817CB990A08 /* DeviceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569FA271E51C1BB8C75141570070B2C3 /* DeviceHelper.swift */; };
+		18B2F53BDB3F774C135D99C904E4A695 /* LayoutHelper-iOS9.3-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E15EA63C7CCD204A98750DC569779BE2 /* LayoutHelper-iOS9.3-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18E2957ACA03C529931178A525DFB3EF /* UIButtonHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA473BEC97A37480522A8666F652B7C /* UIButtonHelper.swift */; };
+		197A51D8F250FB0080B2DD9B49FEAB9F /* NSLayoutHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B8E4B834CDEF839EA348C378C43D08 /* NSLayoutHelper.swift */; };
+		1A9132BA3E3B95C1FB8B030A828AE1FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		1D075F9F825F9BBDAB9F4F901EA46E18 /* UITextViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0261AD5FE7043FBAD8B4907C6DD725 /* UITextViewHelper.swift */; };
+		2A6909B7F6F3B78FC015D63F636DDA81 /* UITextViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0261AD5FE7043FBAD8B4907C6DD725 /* UITextViewHelper.swift */; };
+		32FBC7A5A0E511ABBDC785F6F5DC6388 /* NSLayoutHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B8E4B834CDEF839EA348C378C43D08 /* NSLayoutHelper.swift */; };
+		403A006E42DA3B24149C398D2E654DA2 /* DeviceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569FA271E51C1BB8C75141570070B2C3 /* DeviceHelper.swift */; };
+		4307302090D8631FFAFB000851DD4C09 /* LayoutHelper-iOS13.2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BFB5490E439ABCCC76A755D63518A3 /* LayoutHelper-iOS13.2-dummy.m */; };
+		46A672943E35EA250104554DCBBCB933 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5B15BEAC2900EECD31742D2273AD1733 /* LayoutHelper-iOS9.3-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5D69C9F9AC69C560108AB8A31A4C24 /* LayoutHelper-iOS9.3-dummy.m */; };
+		5FD6858E743F021AFE5CC837A0D42EA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		61CAAD6896FD9728D09DE1E9F016A0C2 /* Pods-LayoutHelper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8CFF3F2891E7974055497DE3BA43692 /* Pods-LayoutHelper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		771DCEE32A4A13CF1FBA74F2A2AC41FE /* LayoutHelper-iOS13.2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B28E93B848F49CEE8CD8C04B63973D48 /* LayoutHelper-iOS13.2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D193607B88CD2C22AACF69287EF7162 /* Pods-LayoutHelper_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B151112BB11F1A9B8E2F14FD29CA1F0E /* Pods-LayoutHelper_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB7C0631F6F24D95BA225E8D47619BF1 /* UILabelHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5F3D05259A222CD3440F1B18F17ECE /* UILabelHelper.swift */; };
+		B7A307A5BE865F8434B768D6D34ED035 /* Pods-LayoutHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8008CA51B2E3AD4AD7622C4C497E93C1 /* Pods-LayoutHelper-dummy.m */; };
+		E2A9C5F0E6C065084A921039A63EA128 /* UILabelHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5F3D05259A222CD3440F1B18F17ECE /* UILabelHelper.swift */; };
+		F31BBDC41906AACF2043EA1C1D6CC104 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FA4B404914E072A5AFEB7B0DE5092CB9 /* UITextFieldHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CE590AF460C8EBD565BEDF8FC5FD44 /* UITextFieldHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		62C1853D84D30FF90DBC52428304956A /* PBXContainerItemProxy */ = {
+		042D6BA82BB787BF497580685D05884F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C8A02F5C0842C77AD13D16EBEE5BF78A;
 			remoteInfo = "LayoutHelper-iOS13.2";
 		};
-		B3F5F6B763CEA9869BD5C7B9CBADE355 /* PBXContainerItemProxy */ = {
+		2AB2653A76AF08E8C577D82AF8E96C84 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -51,83 +51,85 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0DAD7A8F9889684F79FEF7ABD99426CC /* LayoutHelper-iOS9.3-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "LayoutHelper-iOS9.3-Info.plist"; path = "../LayoutHelper-iOS9.3/LayoutHelper-iOS9.3-Info.plist"; sourceTree = "<group>"; };
-		14CB2C212C5B1D95704F2ACD56353CA4 /* LayoutHelper-iOS9.3.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "LayoutHelper-iOS9.3.xcconfig"; path = "../LayoutHelper-iOS9.3/LayoutHelper-iOS9.3.xcconfig"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		02A65663AEFDD8F347DA12752C7B33D9 /* LayoutHelper-iOS9.3-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "LayoutHelper-iOS9.3-prefix.pch"; path = "../LayoutHelper-iOS9.3/LayoutHelper-iOS9.3-prefix.pch"; sourceTree = "<group>"; };
+		050699132B53CFA0B798BC638CD516C6 /* LayoutHelper-iOS13.2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "LayoutHelper-iOS13.2.release.xcconfig"; sourceTree = "<group>"; };
+		0B5D69C9F9AC69C560108AB8A31A4C24 /* LayoutHelper-iOS9.3-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "LayoutHelper-iOS9.3-dummy.m"; path = "../LayoutHelper-iOS9.3/LayoutHelper-iOS9.3-dummy.m"; sourceTree = "<group>"; };
+		146AC82619D15AEF9D6DE78D81B89AA3 /* LayoutHelper-iOS13.2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "LayoutHelper-iOS13.2.modulemap"; sourceTree = "<group>"; };
 		3D4A8FED2AB8AC10806C16DA2FDC3259 /* Pods-LayoutHelper-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LayoutHelper-frameworks.sh"; sourceTree = "<group>"; };
 		43D7997CD9B665672289A6153CADC5B5 /* Pods-LayoutHelper-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LayoutHelper-acknowledgements.markdown"; sourceTree = "<group>"; };
-		49690837D52982E3579BDD196E39A119 /* LayoutHelper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LayoutHelper.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		4F560A84914EF7E32C70B9F3EEC59E34 /* Pods_LayoutHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LayoutHelper.framework; path = "Pods-LayoutHelper.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44B8E4B834CDEF839EA348C378C43D08 /* NSLayoutHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSLayoutHelper.swift; path = LayoutHelper/Classes/NSLayoutHelper.swift; sourceTree = "<group>"; };
+		4F560A84914EF7E32C70B9F3EEC59E34 /* Pods-LayoutHelper */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LayoutHelper"; path = Pods_LayoutHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		51A520BF1C58C99366B8610DEBB577DA /* Pods-LayoutHelper_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LayoutHelper_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		528E4BC793C1FF978932469C36957A79 /* Pods-LayoutHelper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LayoutHelper.modulemap"; sourceTree = "<group>"; };
-		539A19A37DAB2AD47D98C04F6EDF3AD6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		53174E06910A6C34D462CB81378B9526 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		541EBEF407018837F2E46A42581D2941 /* Pods-LayoutHelper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LayoutHelper-Info.plist"; sourceTree = "<group>"; };
 		54347EA37C1C8F1BA2E91AA1B53816BB /* Pods-LayoutHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LayoutHelper.debug.xcconfig"; sourceTree = "<group>"; };
-		5729D8CCD5459DE08382886CB61FC10A /* LayoutHelper-iOS13.2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LayoutHelper-iOS13.2-dummy.m"; sourceTree = "<group>"; };
-		57F921BD617B0B4DC4FFCC493202B5C5 /* LayoutHelper-iOS13.2-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LayoutHelper-iOS13.2-Info.plist"; sourceTree = "<group>"; };
+		55CE590AF460C8EBD565BEDF8FC5FD44 /* UITextFieldHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITextFieldHelper.swift; path = LayoutHelper/Classes/UITextFieldHelper.swift; sourceTree = "<group>"; };
+		569FA271E51C1BB8C75141570070B2C3 /* DeviceHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeviceHelper.swift; path = LayoutHelper/Classes/DeviceHelper.swift; sourceTree = "<group>"; };
 		5B7E3E060EE68F073F7AA07125521B24 /* Pods-LayoutHelper_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LayoutHelper_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		5B9044806426990C172BFD6831B338B1 /* LayoutHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LayoutHelper.framework; path = "LayoutHelper-iOS13.2.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B9044806426990C172BFD6831B338B1 /* LayoutHelper-iOS13.2 */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "LayoutHelper-iOS13.2"; path = LayoutHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C48F1B6F6E974F464ABF5B6DC816741 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6D5A46A675B87830CD15DAC08FC184D0 /* LayoutHelper-iOS13.2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "LayoutHelper-iOS13.2.debug.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7715EA9A82CC667F18E6E2B3BCADDDB7 /* LayoutHelper-iOS9.3.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "LayoutHelper-iOS9.3.modulemap"; path = "../LayoutHelper-iOS9.3/LayoutHelper-iOS9.3.modulemap"; sourceTree = "<group>"; };
+		7AA473BEC97A37480522A8666F652B7C /* UIButtonHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIButtonHelper.swift; path = LayoutHelper/Classes/UIButtonHelper.swift; sourceTree = "<group>"; };
 		8008CA51B2E3AD4AD7622C4C497E93C1 /* Pods-LayoutHelper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LayoutHelper-dummy.m"; sourceTree = "<group>"; };
-		8D6C54FA7B00F65FF6D6A6060AB81F66 /* LayoutHelper-iOS13.2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LayoutHelper-iOS13.2-umbrella.h"; sourceTree = "<group>"; };
-		9138A92DDCF2FA9DF081258CDBC51C93 /* LayoutHelper-iOS9.3-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "LayoutHelper-iOS9.3-prefix.pch"; path = "../LayoutHelper-iOS9.3/LayoutHelper-iOS9.3-prefix.pch"; sourceTree = "<group>"; };
+		8A3AA727B53DF9B630A549A15ECCA683 /* LayoutHelper-iOS9.3-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "LayoutHelper-iOS9.3-Info.plist"; path = "../LayoutHelper-iOS9.3/LayoutHelper-iOS9.3-Info.plist"; sourceTree = "<group>"; };
 		97C4BD17E473DACFABC00F776EFD6A39 /* Pods-LayoutHelper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LayoutHelper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DE3EE74B0237527406342CF6A8EEA84 /* LayoutHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LayoutHelper.framework; path = "LayoutHelper-iOS9.3.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A3FFEB78A3A4C840A58DA9F680223413 /* UITextFieldHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITextFieldHelper.swift; path = LayoutHelper/Classes/UITextFieldHelper.swift; sourceTree = "<group>"; };
-		A89236740CC91D36B13FDACEDFE02403 /* UIButtonHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIButtonHelper.swift; path = LayoutHelper/Classes/UIButtonHelper.swift; sourceTree = "<group>"; };
-		AB187CE8C183511CF2320928B9A54D3B /* Pods_LayoutHelper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LayoutHelper_Tests.framework; path = "Pods-LayoutHelper_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DE3EE74B0237527406342CF6A8EEA84 /* LayoutHelper-iOS9.3 */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "LayoutHelper-iOS9.3"; path = LayoutHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1BDB5FDB211968D0D1AB8767C986D4B /* LayoutHelper-iOS9.3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "LayoutHelper-iOS9.3.release.xcconfig"; path = "../LayoutHelper-iOS9.3/LayoutHelper-iOS9.3.release.xcconfig"; sourceTree = "<group>"; };
+		A41972D5343FF745EE048AEDE50CE43B /* LayoutHelper-iOS9.3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "LayoutHelper-iOS9.3.debug.xcconfig"; path = "../LayoutHelper-iOS9.3/LayoutHelper-iOS9.3.debug.xcconfig"; sourceTree = "<group>"; };
+		AB187CE8C183511CF2320928B9A54D3B /* Pods-LayoutHelper_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LayoutHelper_Tests"; path = Pods_LayoutHelper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD784143CE86E6C434C2F1B95B5E96FB /* LayoutHelper-iOS13.2-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LayoutHelper-iOS13.2-Info.plist"; sourceTree = "<group>"; };
 		B151112BB11F1A9B8E2F14FD29CA1F0E /* Pods-LayoutHelper_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LayoutHelper_Tests-umbrella.h"; sourceTree = "<group>"; };
-		B33702E081354447A18C70B838EB6191 /* LayoutHelper-iOS13.2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LayoutHelper-iOS13.2-prefix.pch"; sourceTree = "<group>"; };
-		BB267ACE6F7C114C06825A96E9BA01A2 /* LayoutHelper-iOS9.3.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "LayoutHelper-iOS9.3.modulemap"; path = "../LayoutHelper-iOS9.3/LayoutHelper-iOS9.3.modulemap"; sourceTree = "<group>"; };
-		C26C54D11D455E13836C98EC6BE28B46 /* UITextViewHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITextViewHelper.swift; path = LayoutHelper/Classes/UITextViewHelper.swift; sourceTree = "<group>"; };
+		B28E93B848F49CEE8CD8C04B63973D48 /* LayoutHelper-iOS13.2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LayoutHelper-iOS13.2-umbrella.h"; sourceTree = "<group>"; };
+		BF0261AD5FE7043FBAD8B4907C6DD725 /* UITextViewHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITextViewHelper.swift; path = LayoutHelper/Classes/UITextViewHelper.swift; sourceTree = "<group>"; };
 		C30F58474362A7005F56A8EF7CCE6C52 /* Pods-LayoutHelper-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LayoutHelper-acknowledgements.plist"; sourceTree = "<group>"; };
-		C3EF3E7FDA6E17130082361FC69B03D1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		C7F5C91AEAAE8078B965ED0D37C7C31E /* UILabelHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UILabelHelper.swift; path = LayoutHelper/Classes/UILabelHelper.swift; sourceTree = "<group>"; };
+		C4B92BCC65678EC2F148449CFA9F839B /* LayoutHelper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LayoutHelper.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C8CFF3F2891E7974055497DE3BA43692 /* Pods-LayoutHelper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LayoutHelper-umbrella.h"; sourceTree = "<group>"; };
-		CDC04552D4BA358EEF82663D874E0B21 /* NSLayoutHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSLayoutHelper.swift; path = LayoutHelper/Classes/NSLayoutHelper.swift; sourceTree = "<group>"; };
-		CF39C3FCB0163F63014030915325DFB1 /* DeviceHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeviceHelper.swift; path = LayoutHelper/Classes/DeviceHelper.swift; sourceTree = "<group>"; };
-		D081A9B11AFB035E9055044904801AEF /* LayoutHelper-iOS9.3-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "LayoutHelper-iOS9.3-umbrella.h"; path = "../LayoutHelper-iOS9.3/LayoutHelper-iOS9.3-umbrella.h"; sourceTree = "<group>"; };
 		DAFBA188D164E3CCE9BD795F83CC94D3 /* Pods-LayoutHelper_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LayoutHelper_Tests-Info.plist"; sourceTree = "<group>"; };
+		E15EA63C7CCD204A98750DC569779BE2 /* LayoutHelper-iOS9.3-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "LayoutHelper-iOS9.3-umbrella.h"; path = "../LayoutHelper-iOS9.3/LayoutHelper-iOS9.3-umbrella.h"; sourceTree = "<group>"; };
 		E55F8A463CDC30AEA852E5C3EB392050 /* Pods-LayoutHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LayoutHelper.release.xcconfig"; sourceTree = "<group>"; };
-		E68A09D456DCBA6994E42384B74F1C2C /* LayoutHelper-iOS13.2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "LayoutHelper-iOS13.2.xcconfig"; sourceTree = "<group>"; };
-		E756FBC2F115ECB7F0FF02297E741302 /* LayoutHelper-iOS13.2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "LayoutHelper-iOS13.2.modulemap"; sourceTree = "<group>"; };
+		E7BFB5490E439ABCCC76A755D63518A3 /* LayoutHelper-iOS13.2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LayoutHelper-iOS13.2-dummy.m"; sourceTree = "<group>"; };
+		EB5F3D05259A222CD3440F1B18F17ECE /* UILabelHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UILabelHelper.swift; path = LayoutHelper/Classes/UILabelHelper.swift; sourceTree = "<group>"; };
 		ECF6A06338F0AC182371B965FA13E42B /* Pods-LayoutHelper_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LayoutHelper_Tests.modulemap"; sourceTree = "<group>"; };
+		EE82EE31466675921A849A27AAA58D6B /* LayoutHelper-iOS13.2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LayoutHelper-iOS13.2-prefix.pch"; sourceTree = "<group>"; };
 		F2F003F4D1D22E949BBD1B8CAC7DB26B /* Pods-LayoutHelper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LayoutHelper_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		FA6162AFF71B416DEF80F3DB82BD05BA /* LayoutHelper-iOS9.3-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "LayoutHelper-iOS9.3-dummy.m"; path = "../LayoutHelper-iOS9.3/LayoutHelper-iOS9.3-dummy.m"; sourceTree = "<group>"; };
 		FC363E4F4FE743F59F89B1420987DE8E /* Pods-LayoutHelper_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LayoutHelper_Tests-dummy.m"; sourceTree = "<group>"; };
 		FF40D49F797C27DDCDE05ABCE4E77917 /* Pods-LayoutHelper_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LayoutHelper_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		03EB743D0481A3F38689EEE1C632BDEC /* Frameworks */ = {
+		567C71EE1E0CC8F093B6B8B5888BA9B7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8427C833C5CA74BD91EF616D850D7175 /* Foundation.framework in Frameworks */,
+				F31BBDC41906AACF2043EA1C1D6CC104 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		38BD5ABC076543A3D821B425E226E800 /* Frameworks */ = {
+		BD9EF35F456F001B5F7AB361288AB1BB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A834C21BCE1490F7786D30D272DA86E /* Foundation.framework in Frameworks */,
+				46A672943E35EA250104554DCBBCB933 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B9B713278A36B626B2B575F1E2D55B3C /* Frameworks */ = {
+		CE1C61447BC7619CF2BE7ADC5F65E0B0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B61C31CB49E0CA4C5560F3891BF0F30 /* Foundation.framework in Frameworks */,
+				1A9132BA3E3B95C1FB8B030A828AE1FF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DB4FA30869CBE1F7433C757B87B61F98 /* Frameworks */ = {
+		F19E911F61614D4044F7AC36EB03E93C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DCA31BBCF8D6E49CB5B3885A2E2FD28 /* Foundation.framework in Frameworks */,
+				5FD6858E743F021AFE5CC837A0D42EA1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,30 +139,9 @@
 		09CBAC2A2F9292102682CDBC506DE9E4 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				80E7FD121A48B736263FC3EC284A36BC /* LayoutHelper */,
+				7B161F0904B536F49D67A3629B8DF510 /* LayoutHelper */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		1C121126B53B2E975E5C8A15538C62A4 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				49690837D52982E3579BDD196E39A119 /* LayoutHelper.podspec */,
-				C3EF3E7FDA6E17130082361FC69B03D1 /* LICENSE */,
-				539A19A37DAB2AD47D98C04F6EDF3AD6 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		1E24675E98ED3B817A7BE0F33DF4615E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5B9044806426990C172BFD6831B338B1 /* LayoutHelper.framework */,
-				9DE3EE74B0237527406342CF6A8EEA84 /* LayoutHelper.framework */,
-				4F560A84914EF7E32C70B9F3EEC59E34 /* Pods_LayoutHelper.framework */,
-				AB187CE8C183511CF2320928B9A54D3B /* Pods_LayoutHelper_Tests.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		25A8251E3E58A3F7E85FFA31D6C3DAF1 /* Pods-LayoutHelper_Tests */ = {
@@ -197,48 +178,71 @@
 			path = "Target Support Files/Pods-LayoutHelper";
 			sourceTree = "<group>";
 		};
-		7678A05607483DD4B349F3E6EE340B8F /* Support Files */ = {
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				E756FBC2F115ECB7F0FF02297E741302 /* LayoutHelper-iOS13.2.modulemap */,
-				E68A09D456DCBA6994E42384B74F1C2C /* LayoutHelper-iOS13.2.xcconfig */,
-				5729D8CCD5459DE08382886CB61FC10A /* LayoutHelper-iOS13.2-dummy.m */,
-				57F921BD617B0B4DC4FFCC493202B5C5 /* LayoutHelper-iOS13.2-Info.plist */,
-				B33702E081354447A18C70B838EB6191 /* LayoutHelper-iOS13.2-prefix.pch */,
-				8D6C54FA7B00F65FF6D6A6060AB81F66 /* LayoutHelper-iOS13.2-umbrella.h */,
-				BB267ACE6F7C114C06825A96E9BA01A2 /* LayoutHelper-iOS9.3.modulemap */,
-				14CB2C212C5B1D95704F2ACD56353CA4 /* LayoutHelper-iOS9.3.xcconfig */,
-				FA6162AFF71B416DEF80F3DB82BD05BA /* LayoutHelper-iOS9.3-dummy.m */,
-				0DAD7A8F9889684F79FEF7ABD99426CC /* LayoutHelper-iOS9.3-Info.plist */,
-				9138A92DDCF2FA9DF081258CDBC51C93 /* LayoutHelper-iOS9.3-prefix.pch */,
-				D081A9B11AFB035E9055044904801AEF /* LayoutHelper-iOS9.3-umbrella.h */,
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		62CB9B278F3BC2B6FA5011EB9843FB6E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				146AC82619D15AEF9D6DE78D81B89AA3 /* LayoutHelper-iOS13.2.modulemap */,
+				E7BFB5490E439ABCCC76A755D63518A3 /* LayoutHelper-iOS13.2-dummy.m */,
+				AD784143CE86E6C434C2F1B95B5E96FB /* LayoutHelper-iOS13.2-Info.plist */,
+				EE82EE31466675921A849A27AAA58D6B /* LayoutHelper-iOS13.2-prefix.pch */,
+				B28E93B848F49CEE8CD8C04B63973D48 /* LayoutHelper-iOS13.2-umbrella.h */,
+				6D5A46A675B87830CD15DAC08FC184D0 /* LayoutHelper-iOS13.2.debug.xcconfig */,
+				050699132B53CFA0B798BC638CD516C6 /* LayoutHelper-iOS13.2.release.xcconfig */,
+				7715EA9A82CC667F18E6E2B3BCADDDB7 /* LayoutHelper-iOS9.3.modulemap */,
+				0B5D69C9F9AC69C560108AB8A31A4C24 /* LayoutHelper-iOS9.3-dummy.m */,
+				8A3AA727B53DF9B630A549A15ECCA683 /* LayoutHelper-iOS9.3-Info.plist */,
+				02A65663AEFDD8F347DA12752C7B33D9 /* LayoutHelper-iOS9.3-prefix.pch */,
+				E15EA63C7CCD204A98750DC569779BE2 /* LayoutHelper-iOS9.3-umbrella.h */,
+				A41972D5343FF745EE048AEDE50CE43B /* LayoutHelper-iOS9.3.debug.xcconfig */,
+				A1BDB5FDB211968D0D1AB8767C986D4B /* LayoutHelper-iOS9.3.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/LayoutHelper-iOS13.2";
 			sourceTree = "<group>";
 		};
-		80E7FD121A48B736263FC3EC284A36BC /* LayoutHelper */ = {
+		7B161F0904B536F49D67A3629B8DF510 /* LayoutHelper */ = {
 			isa = PBXGroup;
 			children = (
-				CF39C3FCB0163F63014030915325DFB1 /* DeviceHelper.swift */,
-				CDC04552D4BA358EEF82663D874E0B21 /* NSLayoutHelper.swift */,
-				A89236740CC91D36B13FDACEDFE02403 /* UIButtonHelper.swift */,
-				C7F5C91AEAAE8078B965ED0D37C7C31E /* UILabelHelper.swift */,
-				A3FFEB78A3A4C840A58DA9F680223413 /* UITextFieldHelper.swift */,
-				C26C54D11D455E13836C98EC6BE28B46 /* UITextViewHelper.swift */,
-				1C121126B53B2E975E5C8A15538C62A4 /* Pod */,
-				7678A05607483DD4B349F3E6EE340B8F /* Support Files */,
+				569FA271E51C1BB8C75141570070B2C3 /* DeviceHelper.swift */,
+				44B8E4B834CDEF839EA348C378C43D08 /* NSLayoutHelper.swift */,
+				7AA473BEC97A37480522A8666F652B7C /* UIButtonHelper.swift */,
+				EB5F3D05259A222CD3440F1B18F17ECE /* UILabelHelper.swift */,
+				55CE590AF460C8EBD565BEDF8FC5FD44 /* UITextFieldHelper.swift */,
+				BF0261AD5FE7043FBAD8B4907C6DD725 /* UITextViewHelper.swift */,
+				7EF8811216DE02CA42921E993E3EC7F8 /* Pod */,
+				62CB9B278F3BC2B6FA5011EB9843FB6E /* Support Files */,
 			);
 			name = LayoutHelper;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+		7EF8811216DE02CA42921E993E3EC7F8 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+				C4B92BCC65678EC2F148449CFA9F839B /* LayoutHelper.podspec */,
+				6C48F1B6F6E974F464ABF5B6DC816741 /* LICENSE */,
+				53174E06910A6C34D462CB81378B9526 /* README.md */,
 			);
-			name = iOS;
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		8B1D195DF639280D2EB728919AC5620F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B9044806426990C172BFD6831B338B1 /* LayoutHelper-iOS13.2 */,
+				9DE3EE74B0237527406342CF6A8EEA84 /* LayoutHelper-iOS9.3 */,
+				4F560A84914EF7E32C70B9F3EEC59E34 /* Pods-LayoutHelper */,
+				AB187CE8C183511CF2320928B9A54D3B /* Pods-LayoutHelper_Tests */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		C9DAAFE42EF985D8B494FAB32789663B /* Targets Support Files */ = {
@@ -256,7 +260,7 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				09CBAC2A2F9292102682CDBC506DE9E4 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				1E24675E98ED3B817A7BE0F33DF4615E /* Products */,
+				8B1D195DF639280D2EB728919AC5620F /* Products */,
 				C9DAAFE42EF985D8B494FAB32789663B /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -264,7 +268,7 @@
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -272,35 +276,35 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		094DED0994C9588261834DC88454EE64 /* Headers */ = {
+		7FF0EF181C226110F71733E041C197B2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0DB2C10E97F5D4D0F5F23C63CC2C8FE /* LayoutHelper-iOS13.2-umbrella.h in Headers */,
+				771DCEE32A4A13CF1FBA74F2A2AC41FE /* LayoutHelper-iOS13.2-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1A648249A44801C7AF3236B0498ABED8 /* Headers */ = {
+		90E08E1DAAD1D2EC55CBC4028FC50D90 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D66B31A07B9A175CAB83D044E5F111C1 /* LayoutHelper-iOS9.3-umbrella.h in Headers */,
+				61CAAD6896FD9728D09DE1E9F016A0C2 /* Pods-LayoutHelper-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		38D4CD3A39F9FFFA8B8AFCE357F28250 /* Headers */ = {
+		9591C615959F2C4C66681F6DE0E6E0C2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F07F699D2B8F0E0745765B86C1F78488 /* Pods-LayoutHelper-umbrella.h in Headers */,
+				7D193607B88CD2C22AACF69287EF7162 /* Pods-LayoutHelper_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A57B432C4149AF5D8ECED5F9F63E6C6B /* Headers */ = {
+		B6A1F999983C2D0E3A16412232558ED0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				464BF1AFF0169823F7F884CE9F2B6214 /* Pods-LayoutHelper_Tests-umbrella.h in Headers */,
+				18B2F53BDB3F774C135D99C904E4A695 /* LayoutHelper-iOS9.3-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,76 +313,76 @@
 /* Begin PBXNativeTarget section */
 		660242D5862D1F888D05BD604854AA1F /* Pods-LayoutHelper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 81D27DC98E2ACB240D219AFA7AB7FBCD /* Build configuration list for PBXNativeTarget "Pods-LayoutHelper" */;
+			buildConfigurationList = F34F1811AA4E628EE128A68198858FA3 /* Build configuration list for PBXNativeTarget "Pods-LayoutHelper" */;
 			buildPhases = (
-				38D4CD3A39F9FFFA8B8AFCE357F28250 /* Headers */,
-				46A8B5A36F5F2DB52FEDCD4DA3217FC6 /* Sources */,
-				03EB743D0481A3F38689EEE1C632BDEC /* Frameworks */,
-				450ABFAD0314834AEA475679FF7A0CAE /* Resources */,
+				90E08E1DAAD1D2EC55CBC4028FC50D90 /* Headers */,
+				44E72382B026BF3703F666BB31D69175 /* Sources */,
+				F19E911F61614D4044F7AC36EB03E93C /* Frameworks */,
+				933DC920303FBF11CAC576D1E4AB72AE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				00DEFCACF71D705A7D55F6DD3C0C6468 /* PBXTargetDependency */,
+				01C0392B0030F2DF927947162D1E0D5E /* PBXTargetDependency */,
 			);
 			name = "Pods-LayoutHelper";
-			productName = "Pods-LayoutHelper";
-			productReference = 4F560A84914EF7E32C70B9F3EEC59E34 /* Pods_LayoutHelper.framework */;
+			productName = Pods_LayoutHelper;
+			productReference = 4F560A84914EF7E32C70B9F3EEC59E34 /* Pods-LayoutHelper */;
 			productType = "com.apple.product-type.framework";
 		};
 		C8A02F5C0842C77AD13D16EBEE5BF78A /* LayoutHelper-iOS13.2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 94D11C8116A975E3E7BCE9397D1DE254 /* Build configuration list for PBXNativeTarget "LayoutHelper-iOS13.2" */;
+			buildConfigurationList = DF5E6E031A17C0C2F05DE1CD06656201 /* Build configuration list for PBXNativeTarget "LayoutHelper-iOS13.2" */;
 			buildPhases = (
-				094DED0994C9588261834DC88454EE64 /* Headers */,
-				166CF465003BB00973256BAAE192AADA /* Sources */,
-				DB4FA30869CBE1F7433C757B87B61F98 /* Frameworks */,
-				9A897667DBE748246625E447500D4543 /* Resources */,
+				7FF0EF181C226110F71733E041C197B2 /* Headers */,
+				159F607C3B54C35EB5882133F9724F00 /* Sources */,
+				567C71EE1E0CC8F093B6B8B5888BA9B7 /* Frameworks */,
+				93874623453F19E1FB56C15BA1D985BA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "LayoutHelper-iOS13.2";
-			productName = "LayoutHelper-iOS13.2";
-			productReference = 5B9044806426990C172BFD6831B338B1 /* LayoutHelper.framework */;
+			productName = LayoutHelper;
+			productReference = 5B9044806426990C172BFD6831B338B1 /* LayoutHelper-iOS13.2 */;
 			productType = "com.apple.product-type.framework";
 		};
 		E1D418743CD0EE946DBE148F2542E8B8 /* LayoutHelper-iOS9.3 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2B034533916C7B9867716E21DB147FA5 /* Build configuration list for PBXNativeTarget "LayoutHelper-iOS9.3" */;
+			buildConfigurationList = 1A957A0CC23F2A7949A78D4C625ADB21 /* Build configuration list for PBXNativeTarget "LayoutHelper-iOS9.3" */;
 			buildPhases = (
-				1A648249A44801C7AF3236B0498ABED8 /* Headers */,
-				00343CE7779F9648737ECA7773E5AD6D /* Sources */,
-				B9B713278A36B626B2B575F1E2D55B3C /* Frameworks */,
-				B6FFD2ABDA16B33B81EFCBDB78871F38 /* Resources */,
+				B6A1F999983C2D0E3A16412232558ED0 /* Headers */,
+				D9C6CBC7DB5D08612BCA68FB76F8FC65 /* Sources */,
+				CE1C61447BC7619CF2BE7ADC5F65E0B0 /* Frameworks */,
+				54D67A6969DEEEB48F2391702D7FFD11 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "LayoutHelper-iOS9.3";
-			productName = "LayoutHelper-iOS9.3";
-			productReference = 9DE3EE74B0237527406342CF6A8EEA84 /* LayoutHelper.framework */;
+			productName = LayoutHelper;
+			productReference = 9DE3EE74B0237527406342CF6A8EEA84 /* LayoutHelper-iOS9.3 */;
 			productType = "com.apple.product-type.framework";
 		};
 		F959C92B3B28B3EA655351A5F963F1F2 /* Pods-LayoutHelper_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C8E90E66A441359F38B8723F3E519A7D /* Build configuration list for PBXNativeTarget "Pods-LayoutHelper_Tests" */;
+			buildConfigurationList = 64C37D1F86F09B26DE61CD762E9FB72F /* Build configuration list for PBXNativeTarget "Pods-LayoutHelper_Tests" */;
 			buildPhases = (
-				A57B432C4149AF5D8ECED5F9F63E6C6B /* Headers */,
-				AB95DF016CAA4E3984F4E8A4DEC0E572 /* Sources */,
-				38BD5ABC076543A3D821B425E226E800 /* Frameworks */,
-				B6AC3C9C134E9428642681D712CAE1D7 /* Resources */,
+				9591C615959F2C4C66681F6DE0E6E0C2 /* Headers */,
+				50F15453A3F0F84598BE84A8197DAD23 /* Sources */,
+				BD9EF35F456F001B5F7AB361288AB1BB /* Frameworks */,
+				DB1DD530A1CDF0A042770A5EB5836480 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				33E21A53D04DD75C6EFB6921B304C0E4 /* PBXTargetDependency */,
+				A29DAD1638DCB5641B6840D139F35CA5 /* PBXTargetDependency */,
 			);
 			name = "Pods-LayoutHelper_Tests";
-			productName = "Pods-LayoutHelper_Tests";
-			productReference = AB187CE8C183511CF2320928B9A54D3B /* Pods_LayoutHelper_Tests.framework */;
+			productName = Pods_LayoutHelper_Tests;
+			productReference = AB187CE8C183511CF2320928B9A54D3B /* Pods-LayoutHelper_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -387,18 +391,19 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				Base,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 1E24675E98ED3B817A7BE0F33DF4615E /* Products */;
+			productRefGroup = 8B1D195DF639280D2EB728919AC5620F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -411,28 +416,28 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		450ABFAD0314834AEA475679FF7A0CAE /* Resources */ = {
+		54D67A6969DEEEB48F2391702D7FFD11 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A897667DBE748246625E447500D4543 /* Resources */ = {
+		933DC920303FBF11CAC576D1E4AB72AE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B6AC3C9C134E9428642681D712CAE1D7 /* Resources */ = {
+		93874623453F19E1FB56C15BA1D985BA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B6FFD2ABDA16B33B81EFCBDB78871F38 /* Resources */ = {
+		DB1DD530A1CDF0A042770A5EB5836480 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -442,107 +447,73 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		00343CE7779F9648737ECA7773E5AD6D /* Sources */ = {
+		159F607C3B54C35EB5882133F9724F00 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FABFAD7D0C1182987DAF01519D385A5 /* DeviceHelper.swift in Sources */,
-				DA9F21253779E4F28C204ACFED2CF8A5 /* LayoutHelper-iOS9.3-dummy.m in Sources */,
-				2CC3F58DE8BDF060F5C7B40B57D33A0F /* NSLayoutHelper.swift in Sources */,
-				98B879621ABAEF6EB46DA1AF7BC18CEB /* UIButtonHelper.swift in Sources */,
-				EADF749EAB6DA0B5B2FAD492D1397D8F /* UILabelHelper.swift in Sources */,
-				32A9C62631E17FA7008DE75B0D9494C2 /* UITextFieldHelper.swift in Sources */,
-				C315259C0796DE3AE8DB881C7FEA748C /* UITextViewHelper.swift in Sources */,
+				403A006E42DA3B24149C398D2E654DA2 /* DeviceHelper.swift in Sources */,
+				4307302090D8631FFAFB000851DD4C09 /* LayoutHelper-iOS13.2-dummy.m in Sources */,
+				32FBC7A5A0E511ABBDC785F6F5DC6388 /* NSLayoutHelper.swift in Sources */,
+				18E2957ACA03C529931178A525DFB3EF /* UIButtonHelper.swift in Sources */,
+				AB7C0631F6F24D95BA225E8D47619BF1 /* UILabelHelper.swift in Sources */,
+				FA4B404914E072A5AFEB7B0DE5092CB9 /* UITextFieldHelper.swift in Sources */,
+				1D075F9F825F9BBDAB9F4F901EA46E18 /* UITextViewHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		166CF465003BB00973256BAAE192AADA /* Sources */ = {
+		44E72382B026BF3703F666BB31D69175 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23F09F873EEA04FF09A1652EFCC3F761 /* DeviceHelper.swift in Sources */,
-				FF139199E1671ABAFE8D9E21E6DC8BE8 /* LayoutHelper-iOS13.2-dummy.m in Sources */,
-				5B67CD8871607D6FE38397057B227C0C /* NSLayoutHelper.swift in Sources */,
-				0F2970BD73CDAC5242D7FA8B3FBD4D3E /* UIButtonHelper.swift in Sources */,
-				320D11A8F1D073D2539D338B6BA25A08 /* UILabelHelper.swift in Sources */,
-				D634FCCB1D31BA148F2930FCDC4BFF7C /* UITextFieldHelper.swift in Sources */,
-				DFFAFE7B0C9D41151EC85F4D980EB6F7 /* UITextViewHelper.swift in Sources */,
+				B7A307A5BE865F8434B768D6D34ED035 /* Pods-LayoutHelper-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46A8B5A36F5F2DB52FEDCD4DA3217FC6 /* Sources */ = {
+		50F15453A3F0F84598BE84A8197DAD23 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9014D5FAFF4597412B22A4AD7469F65A /* Pods-LayoutHelper-dummy.m in Sources */,
+				104E8DEF1D378E96862370A0485F9942 /* Pods-LayoutHelper_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AB95DF016CAA4E3984F4E8A4DEC0E572 /* Sources */ = {
+		D9C6CBC7DB5D08612BCA68FB76F8FC65 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D025F2A1F357EF1BD4500C861A5409D /* Pods-LayoutHelper_Tests-dummy.m in Sources */,
+				12AC132A30717EDE92661817CB990A08 /* DeviceHelper.swift in Sources */,
+				5B15BEAC2900EECD31742D2273AD1733 /* LayoutHelper-iOS9.3-dummy.m in Sources */,
+				197A51D8F250FB0080B2DD9B49FEAB9F /* NSLayoutHelper.swift in Sources */,
+				0B4C9907BB4C5EB706FF5D9EFCBDC3A7 /* UIButtonHelper.swift in Sources */,
+				E2A9C5F0E6C065084A921039A63EA128 /* UILabelHelper.swift in Sources */,
+				026EEBDA7F1F984726C648D16C472CA5 /* UITextFieldHelper.swift in Sources */,
+				2A6909B7F6F3B78FC015D63F636DDA81 /* UITextViewHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		00DEFCACF71D705A7D55F6DD3C0C6468 /* PBXTargetDependency */ = {
+		01C0392B0030F2DF927947162D1E0D5E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "LayoutHelper-iOS13.2";
 			target = C8A02F5C0842C77AD13D16EBEE5BF78A /* LayoutHelper-iOS13.2 */;
-			targetProxy = 62C1853D84D30FF90DBC52428304956A /* PBXContainerItemProxy */;
+			targetProxy = 042D6BA82BB787BF497580685D05884F /* PBXContainerItemProxy */;
 		};
-		33E21A53D04DD75C6EFB6921B304C0E4 /* PBXTargetDependency */ = {
+		A29DAD1638DCB5641B6840D139F35CA5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "LayoutHelper-iOS9.3";
 			target = E1D418743CD0EE946DBE148F2542E8B8 /* LayoutHelper-iOS9.3 */;
-			targetProxy = B3F5F6B763CEA9869BD5C7B9CBADE355 /* PBXContainerItemProxy */;
+			targetProxy = 2AB2653A76AF08E8C577D82AF8E96C84 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		019E62F7143403ECC7A6EC76CE6E4A6F /* Debug */ = {
+		400F3C903D4C3EED6C7571F2BCB9C484 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 97C4BD17E473DACFABC00F776EFD6A39 /* Pods-LayoutHelper_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LayoutHelper_Tests/Pods-LayoutHelper_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LayoutHelper_Tests/Pods-LayoutHelper_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		0BED3ACAB9A49C02709AD8F551FD339B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E68A09D456DCBA6994E42384B74F1C2C /* LayoutHelper-iOS13.2.xcconfig */;
+			baseConfigurationReference = 050699132B53CFA0B798BC638CD516C6 /* LayoutHelper-iOS13.2.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -570,142 +541,11 @@
 			};
 			name = Release;
 		};
-		2ABAA894E0B7F174284F592F0AF105C9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F2F003F4D1D22E949BBD1B8CAC7DB26B /* Pods-LayoutHelper_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LayoutHelper_Tests/Pods-LayoutHelper_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LayoutHelper_Tests/Pods-LayoutHelper_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3C5DFDB0A70B0FA1926ED3222B66BD3D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14CB2C212C5B1D95704F2ACD56353CA4 /* LayoutHelper-iOS9.3.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LayoutHelper-iOS9.3/LayoutHelper-iOS9.3-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LayoutHelper-iOS9.3/LayoutHelper-iOS9.3-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LayoutHelper-iOS9.3/LayoutHelper-iOS9.3.modulemap";
-				PRODUCT_MODULE_NAME = LayoutHelper;
-				PRODUCT_NAME = LayoutHelper;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		81F929B3202C9C1E1422D8DEA897A7E0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 54347EA37C1C8F1BA2E91AA1B53816BB /* Pods-LayoutHelper.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LayoutHelper/Pods-LayoutHelper-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LayoutHelper/Pods-LayoutHelper.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8395A22F16090163C2CEF9174FDE6652 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14CB2C212C5B1D95704F2ACD56353CA4 /* LayoutHelper-iOS9.3.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LayoutHelper-iOS9.3/LayoutHelper-iOS9.3-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LayoutHelper-iOS9.3/LayoutHelper-iOS9.3-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LayoutHelper-iOS9.3/LayoutHelper-iOS9.3.modulemap";
-				PRODUCT_MODULE_NAME = LayoutHelper;
-				PRODUCT_NAME = LayoutHelper;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+		431BA2B8298F0EE71735B9E0114E1955 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -728,6 +568,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -762,10 +603,73 @@
 			};
 			name = Release;
 		};
-		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+		5ED4880F59793FD7071A879FC19657AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97C4BD17E473DACFABC00F776EFD6A39 /* Pods-LayoutHelper_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LayoutHelper_Tests/Pods-LayoutHelper_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LayoutHelper_Tests/Pods-LayoutHelper_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		622DC84CC4A775044D5739B9F59B3987 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A41972D5343FF745EE048AEDE50CE43B /* LayoutHelper-iOS9.3.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LayoutHelper-iOS9.3/LayoutHelper-iOS9.3-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LayoutHelper-iOS9.3/LayoutHelper-iOS9.3-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LayoutHelper-iOS9.3/LayoutHelper-iOS9.3.modulemap";
+				PRODUCT_MODULE_NAME = LayoutHelper;
+				PRODUCT_NAME = LayoutHelper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		79759604D78320E712558F49DF19AA9F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -788,6 +692,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -826,12 +731,44 @@
 			};
 			name = Debug;
 		};
-		ED7320EBC23C98E2A7DE9A9F9CD765F9 /* Debug */ = {
+		8C5575B2532B286248E8C662997DF396 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E68A09D456DCBA6994E42384B74F1C2C /* LayoutHelper-iOS13.2.xcconfig */;
+			baseConfigurationReference = F2F003F4D1D22E949BBD1B8CAC7DB26B /* Pods-LayoutHelper_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LayoutHelper_Tests/Pods-LayoutHelper_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LayoutHelper_Tests/Pods-LayoutHelper_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B2AB663FA5BFA15E31B7897B6CBA3712 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D5A46A675B87830CD15DAC08FC184D0 /* LayoutHelper-iOS13.2.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -858,14 +795,78 @@
 			};
 			name = Debug;
 		};
-		F7C97AE594E8CE3A6EA4AC4469D84B1D /* Release */ = {
+		B3B1A6E7FE250842906495F866376925 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54347EA37C1C8F1BA2E91AA1B53816BB /* Pods-LayoutHelper.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LayoutHelper/Pods-LayoutHelper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LayoutHelper/Pods-LayoutHelper.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D3E30286F7511EAFC2CE6AFC758B960A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1BDB5FDB211968D0D1AB8767C986D4B /* LayoutHelper-iOS9.3.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LayoutHelper-iOS9.3/LayoutHelper-iOS9.3-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LayoutHelper-iOS9.3/LayoutHelper-iOS9.3-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LayoutHelper-iOS9.3/LayoutHelper-iOS9.3.modulemap";
+				PRODUCT_MODULE_NAME = LayoutHelper;
+				PRODUCT_NAME = LayoutHelper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DE5C2ECBD0C81CB4494D8968A15AB395 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E55F8A463CDC30AEA852E5C3EB392050 /* Pods-LayoutHelper.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -897,11 +898,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2B034533916C7B9867716E21DB147FA5 /* Build configuration list for PBXNativeTarget "LayoutHelper-iOS9.3" */ = {
+		1A957A0CC23F2A7949A78D4C625ADB21 /* Build configuration list for PBXNativeTarget "LayoutHelper-iOS9.3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8395A22F16090163C2CEF9174FDE6652 /* Debug */,
-				3C5DFDB0A70B0FA1926ED3222B66BD3D /* Release */,
+				622DC84CC4A775044D5739B9F59B3987 /* Debug */,
+				D3E30286F7511EAFC2CE6AFC758B960A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -909,35 +910,35 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
-				B0087CB4594321EF41619F3181FE120E /* Release */,
+				79759604D78320E712558F49DF19AA9F /* Debug */,
+				431BA2B8298F0EE71735B9E0114E1955 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		81D27DC98E2ACB240D219AFA7AB7FBCD /* Build configuration list for PBXNativeTarget "Pods-LayoutHelper" */ = {
+		64C37D1F86F09B26DE61CD762E9FB72F /* Build configuration list for PBXNativeTarget "Pods-LayoutHelper_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				81F929B3202C9C1E1422D8DEA897A7E0 /* Debug */,
-				F7C97AE594E8CE3A6EA4AC4469D84B1D /* Release */,
+				5ED4880F59793FD7071A879FC19657AD /* Debug */,
+				8C5575B2532B286248E8C662997DF396 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		94D11C8116A975E3E7BCE9397D1DE254 /* Build configuration list for PBXNativeTarget "LayoutHelper-iOS13.2" */ = {
+		DF5E6E031A17C0C2F05DE1CD06656201 /* Build configuration list for PBXNativeTarget "LayoutHelper-iOS13.2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ED7320EBC23C98E2A7DE9A9F9CD765F9 /* Debug */,
-				0BED3ACAB9A49C02709AD8F551FD339B /* Release */,
+				B2AB663FA5BFA15E31B7897B6CBA3712 /* Debug */,
+				400F3C903D4C3EED6C7571F2BCB9C484 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C8E90E66A441359F38B8723F3E519A7D /* Build configuration list for PBXNativeTarget "Pods-LayoutHelper_Tests" */ = {
+		F34F1811AA4E628EE128A68198858FA3 /* Build configuration list for PBXNativeTarget "Pods-LayoutHelper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				019E62F7143403ECC7A6EC76CE6E4A6F /* Debug */,
-				2ABAA894E0B7F174284F592F0AF105C9 /* Release */,
+				B3B1A6E7FE250842906495F866376925 /* Debug */,
+				DE5C2ECBD0C81CB4494D8968A15AB395 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17700" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Pd7-C8-f8V">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Pd7-C8-f8V">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -12,7 +12,7 @@
         <!--View Controller-->
         <scene sceneID="jbA-cc-hsr">
             <objects>
-                <viewController id="Pd7-C8-f8V" sceneMemberID="viewController">
+                <viewController id="Pd7-C8-f8V" customClass="ViewController" customModule="LayoutHelper" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JMQ-1F-pUb">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -34,23 +34,26 @@
                                             <userDefinedRuntimeAttribute type="number" keyPath="iPhone4s">
                                                 <real key="value" value="260"/>
                                             </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="iPhone11Pro">
-                                                <real key="value" value="400"/>
-                                            </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="number" keyPath="iPhone11">
                                                 <real key="value" value="430"/>
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="number" keyPath="iPhone11Max">
-                                                <real key="value" value="450"/>
+                                                <real key="value" value="460"/>
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="number" keyPath="iPhone12Mini">
-                                                <real key="value" value="400"/>
+                                                <real key="value" value="500"/>
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="number" keyPath="iPhone12">
-                                                <real key="value" value="430"/>
+                                                <real key="value" value="420"/>
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="number" keyPath="iPhone12ProMax">
                                                 <real key="value" value="450"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="iPhoneSE3G">
+                                                <real key="value" value="300"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="iPhone11Pro">
+                                                <real key="value" value="400"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </constraint>
@@ -63,7 +66,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="335" height="44"/>
                                         <color key="backgroundColor" red="0.086274509799999996" green="0.74117647060000003" blue="0.72941176470000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="44" id="Eqv-Tt-c7M" customClass="NSLayoutHelper" customModule="LayoutHelper">
+                                            <constraint firstAttribute="height" constant="44" id="Eqv-Tt-c7M" customClass="NSLayoutHelper" customModule="LayoutHelper" customModuleProvider="target">
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="iPhone4s">
                                                         <real key="value" value="32"/>
@@ -106,6 +109,9 @@
                                                     </userDefinedRuntimeAttribute>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="iPhone12ProMax">
                                                         <real key="value" value="50"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="iPhone13Mini">
+                                                        <real key="value" value="30"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                             </constraint>
@@ -154,6 +160,9 @@
                             <constraint firstItem="UXP-yH-JTm" firstAttribute="top" secondItem="znV-yM-b1H" secondAttribute="top" constant="80" id="t6L-V0-XhP"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="img" destination="h7F-3n-H2W" id="onS-Ud-3xo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OJs-IS-uWu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -206,7 +215,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="background" width="507" height="592"/>
+        <image name="background" width="1920" height="1080"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

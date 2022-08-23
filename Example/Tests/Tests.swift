@@ -1,5 +1,4 @@
 import XCTest
-import LayoutHelper
 
 class Tests: XCTestCase {
     
