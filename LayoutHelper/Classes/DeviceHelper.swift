@@ -40,7 +40,7 @@ let deviceSize : UIDeviceSize = {
         return .i5_5Inch
     case 812: //iPhoneX, iPhoneXS, iPhone 12 mini , iPhone 13 mini
         switch deviceType {
-        case .iPhone12Mini:
+        case .iPhone12Mini,.iPhone13Mini:
             return .i5_4Inch
         default:
             return .i5_8Inch
